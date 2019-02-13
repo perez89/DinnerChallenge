@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drink Drink Drink</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/views/css/teste.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="./sendtask.js"></script>
+    
+</head>
+<body>
+    <div class="jumbotron vertical-center background1">
+        <div class="container text-center">
+            <div class="footer">
+                <div class="author">L. Perez</div>
+                <div class="author">Alvaro F.</div> 
+            </div>
+            <div class="title">Merry Christmas!!</div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <div class="top-bg"></div>
+                </div>
+ <form id="send_task_form" method="post">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 iPhone-features" style="margin-left:-25px;">
+                    <ul class="top-features">
+                        <li>
+                            <input id="bitaite"  name="acknowledgment" type="text" placeholder="Bitaîte/Agradecimento :)" maxlength="80"/>
+                        </li>
+                        <li>
+                            <input id="bebe" name="whodrinks" type="text" placeholder="Quem bebe?" required maxlength="80"/>
+                        </li>
+                        <li>
+                            <input id="nome" name="namex" type="text" placeholder="O teu nome!" maxlength="40"/>
+                        </li>
+                        <button type="submit" id="button" class="btn btn-primary">Enviar</button>
+                    </ul>
+                </div>
+                 </form>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+</html>
